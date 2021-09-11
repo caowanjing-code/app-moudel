@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+	<meta content="telephone=no" name="format-detection" />
+    <title>仿京东商城app</title>
+    <link rel="stylesheet" href="./font_gl1ytl0lay/iconfont.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.mini.css">
+</head>
+<body>
+    <header class="warp">
+        <div class="title">
+            <i href="#" class="icon-saoyisao"></i>
+            <div class="search-box">
+                <input type="text" placeholder="搜索">
+                <i class="icon-sousuo"></i>
+            </div>
+            <i class="icon-xiaoxizhongxin"></i>
+        </div>
+    </header>
+        <!--轮播图区域-->
+        <div class="carou">
+        <div class="swiper-container" id="swiper1">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                  <img src="./img/banner.png">
+              </div>
+              <div class="swiper-slide">
+                  <img src="./img/ad1.jpg">
+              </div>
+              <div class="swiper-slide">
+                  
+                <img src="./img/ad3.jpg">
+              </div>
+              <div class="swiper-slide">
+                  
+                <img src="./img/ad4.jpg">
+              </div>
+              <div class="swiper-slide">
+                  <img src="./img/ad5.jpg">
+              </div>
+              <div class="swiper-slide">
+                  <img src="./img/ad6.jpg">
+              </div>
+              <div class="swiper-slide">
+                  <img src="./img/ad1.jpg">
+              </div>
+            </div>
+            <!-- 导航下标栏-->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+
+          <!--第二个轮播图下面各种分类事件-->
+          <div class="swiper-container" id="swiper2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide" id="slide1" >
+                <div class="sid1">
+              <a href="#" class="slide-box">
+                  <img src="./img/chart.jpg">
+                  <span>京东超市</span>
+              </a>
+              <a href="#" class="slide-box">
+                <img src="./img/3ce.jpg">
+                <span>数码家电</span>
+            </a>
+            <a href="#" class="slide-box">
+              <img src="./img/cloth.jpg">
+              <span>京东服饰</span>
+          </a>
+          <a href="#" class="slide-box">
+            <img src="./img/freash.jpg">
+            <span>京东生鲜</span>
+          </a>
+          <a href="#" class="slide-box">
+          <img src="./img/tohome.jpg">
+          <span>京东到家</span>
+         </a>
+         <a href="#" class="slide-box">
+          <img src="./img/cphone.jpg">
+          <span>充值缴费</span>
+         </a>
+         <a href="#" class="slide-box">
+          <img src="./img/ox.jpg">
+          <span>9.9元拼</span>
+         </a>
+         <a href="#" class="slide-box">
+          <img src="./img/coupon.jpg">
+          <span>领券</span>
+         </a>
+         <a href="#" class="slide-box">
+          <img src="./img/luckmoney.jpg">
+          <span>领金贴</span>
+         </a>
+         <a href="#" class="slide-box">
+          <img src="./img/plus.jpg">
+          <span>PLUS会员</span>
+         </a>
+                       </div>
+            </div>
+              <div class="swiper-slide" id="slide2">
+                <div class="sid2">
+                  <a href="#" class="slide-box">
+                      <img src="./img/outsea.jpg">
+                      <span>京东国际</span>
+                  </a>
+                  <a href="#" class="slide-box">
+                    <img src="./img/jddog-sale.jpg">
+                    <span>京东拍卖</span>
+                </a>
+                <a href="#" class="slide-box">
+                  <img src="./img/treat.jpg">
+                  <span>看病购药</span>
+              </a>
+              <a href="#" class="slide-box">
+                <img src="./img/sale.jpg">
+                <span>玩3C</span>
+              </a>
+              <a href="#" class="slide-box">
+              <img src="./img/walermark.jpg">
+              <span>沃尔玛</span>
+             </a>
+             <a href="#" class="slide-box">
+              <img src="./img/makeup.jpg">
+              <span>美妆馆</span>
+             </a>
+             <a href="#" class="slide-box">
+              <img src="./img/travle.jpg">
+              <span>京东旅行</span>
+             </a>
+             <a href="#" class="slide-box">
+              <img src="./img/bestsale.jpg">
+              <span>拍拍二手</span>
+             </a>
+             <a href="#" class="slide-box">
+              <img src="./img/logi.jpg">
+              <span>物流查询</span>
+             </a>
+             <a href="#" class="slide-box">
+              <img src="./img/all.jpg">
+              <span>全部</span>
+             </a>
+                           </div>
+              </div>
+            </div>
+            
+            <!-- 轮播图的脚脚 -->
+            <div class="swiper-scrollbar" id="srollbar1"></div>
+          </div>
+
+
+          <!-- 聚划算仿淘宝 -->
+          <!-- 利用轮播图实现 -->
+          <div class="center">
+
+            <!-- 我们想使用2个模块 -->
+            <div class="center-left">
+
+              <div class="left">
+                <h2>
+                  <a href="./juhuasuna.html">聚划算</a></h2>
+
+                <div class="swiper-container" id="left1">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image:url(./img/ad1.jpg)">
+                      <p class="p1">品牌折扣</p>
+                    </div>
+                    <div class="swiper-slide" style="background-image:url(./img/ad2.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(./img/ad3.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(./img/ad5.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(./img/ad4.jpg)"></div>
+                  </div>
+
+                  <!-- Add Pagination -->
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+              <div class="left">
+                <p class="p2">好物划算</p>
+                <img src="./img/book.png">
+
+                </div>
+                <div class="left">
+                  <h2>淘抢购</h2>
+                  <p class="p3">限时半价</p>
+                  <img src="./img/rabbit.jpg">
+                </div>
+              <div class="left">
+                <h2>天天特卖</h2>
+                <p class="p4">9.9包邮</p>
+                <img src="./img/friut.jpg">
+              </div>
+              <div class="left">
+                <h2>每日好店<p>精选</p></h2>
+                <img src="./img/ggg.jpg">
+              </div>
+              <div class="left">
+                <p class="p6">精品推荐</p>
+                <img src="./img/tolit.jpg">
+              </div>
+              </div>
+              
+            <div class="center-right">
+
+              <div class="right">
+                <h2>直播<p class="live">LIVE</p></h2>
+
+                <div class="swiper-container" id="right1">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image:url(./img/ad1.jpg)">
+                    </div>
+                    <div class="swiper-slide" style="background-image:url(./img/ad2.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(./img/ad3.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(./img/ad5.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(./img/ad4.jpg)"></div>
+                  </div>
+
+                  <!-- Add Pagination -->
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+              <div class="right">
+                <p class="p2">好物传输</p>
+
+                <!-- <p class="p2">好物划算</p> -->
+                <img src="./img/chu.png">
+
+                </div>
+                <div class="right">
+                  <h2>好货<p class="qulity">品质</p></h2>
+                  <p class="p3">全民口碑推荐</p>
+                  <img src="./img/rabbit.jpg">
+                </div>
+              <div class="right">
+                <h2>天天特卖</h2>
+                <p class="p4">9.9包邮</p>
+                <img src="./img/friut.jpg">
+              </div>
+              <div class="right">
+                <h2>哇哦视频<p class="test">亲测</p></h2>
+                <img src="./img/ggg.jpg">
+              </div>
+              <div class="right">
+                <p class="p6">粉丝都在买</p>
+                <img src="./img/tolit.jpg">
+              </div>
+            </div>
+          </div>
+          
+          <!--无限推荐页面-->
+          <div class="recommend">
+            <h2>专属推荐</h2>
+            <div class="recommend-cir">
+              <div class="recomm-card">
+                <img src="./img/ad-004.png">
+                <div class="details">
+                  <span>香浓牛奶纯天然无添加绿色食品高钙学生早餐无糖减肥不和糖分健康美味家庭</span>
+                  <p class="now">￥33.9</p>
+                  <p class="del">￥40</p>
+                  <a class="likeness">查看类似</a>
+
+                </div>
+
+              </div>
+              <div class="recomm-card">
+                <img src="./img/ad-005.png">
+                <div class="details">
+                  <span>香浓牛奶纯天然无添加绿色食品高钙学生早餐无糖减肥不和糖分健康美味家庭</span>
+                  <p class="now"> ￥33.9</p>
+                  <p class="del">￥40</p>
+                  <a class="likeness">查看类似</a>
+                </div>
+                
+              </div>
+              <div class="recomm-card">
+                <img src="./img/ad-006.png">
+                <div class="details">
+                  <span>香浓牛奶纯天然无添加绿色食品高钙学生早餐无糖减肥不和糖分健康美味家庭</span>
+                  <p class="now"> ￥33.9</p>
+                  <p class="del">￥40</p>
+                  <a class="likeness">查看类似</a>
+
+                </div>
+              </div>
+              <div class="recomm-card">
+                <img src="./img/ad-006.png">
+                <div class="details">
+                  <span>香浓牛奶纯天然无添加绿色食品高钙学生早餐无糖减肥不和糖分健康美味家庭</span>
+                  <p class="now"> ￥33.9</p>
+                  <p class="del">￥40</p>
+                  <a class="likeness">查看类似</a>
+
+                </div>
+              </div>
+              <div class="recomm-card">
+                <img src="./img/ad-004.png">
+                <div class="details">
+                  <span>香浓牛奶纯天然无添加绿色食品高钙学生早餐无糖减肥不和糖分健康美味家庭</span>
+                  <p class="now"> ￥33.9</p>
+                  <p class="del">￥40</p>
+                  <a class="likeness">查看类似</a>
+
+                </div>
+
+              </div>
+              <div class="recomm-card">
+                <img src="./img/ad-004.png">
+                <div class="details">
+                  <span>香浓牛奶纯天然无添加绿色食品高钙学生早餐无糖减肥不和糖分健康美味家庭</span>
+                  <p class="now"> ￥33.9</p>
+                  <p class="del">￥40</p>
+                  <a class="likeness">查看类似</a>
+
+                </div>
+
+              </div>
+              <div class="recomm-card">
+                <img src="./img/ad-004.png">
+                <div class="details">
+                  <span>香浓牛奶纯天然无添加绿色食品高钙学生早餐无糖减肥不和糖分健康美味家庭</span>
+                  <p class="now"> ￥33.9</p>
+                  <p class="del">￥40</p>
+                  <a class="likeness">查看类似</a>
+                </div>
+
+              </div>
+              <div class="recomm-card">
+                <img src="./img/ad-004.png">
+                <div class="details">
+                  <span>香浓牛奶纯天然无添加绿色食品高钙学生早餐无糖减肥不和糖分健康美味家庭</span>
+                  <p class="now"> ￥33.9</p>
+                  <p class="del">￥40</p>
+                  <a class="likeness">查看类似</a>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+          <!--脚部footer导航栏-->
+          <footer class="footer-nav">
+              <a href="./index.html" class="footer-nav-item">
+                  <span class="icon-item">
+                      <i class="icon-shouye"></i>
+                  </span>
+                  <span class="item-text">首页</span>
+              </a>
+              <a href="./classify.html" class="footer-nav-item">
+                <span class="icon-item">
+                    <i class="icon-liwu"></i>
+                </span>
+                <span class="item-text">分类</span>
+            </a>
+            <a href="./shoppingCart.html" class="footer-nav-item">
+                <span class="icon-item">
+                    <i class="icon-gouwuche"></i>
+                </span>
+                <span class="item-text">购物车</span>
+            </a>
+            <a  class="footer-nav-item">
+                <span class="icon-item">
+                    <i class="icon-wodejuhuasuan"></i>
+                </span>
+                <span class="item-text">我的</span>
+            </a>
+          </footer>
+    
+    <script src="./js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="./js/jquery.mini.js"></script>
+    <script src="./js/navbar.js"></script>
+    <script src="./js/swiper-bundle.mini.js"></script>
+
+    <!-- 第一个轮播图 -->
+    <script>
+        var swiper1 = new Swiper('#swiper1', {
+            //淡入淡出效果
+            effect : 'fade',
+            autoplay:true,
+            autoplay: {
+                delay: 3000,//2秒切换一次
+                disableOnInteraction: false,//触碰以后停止切换
+              },
+              //第一个轮播图的脚脚
+          pagination: {
+            el:'.swiper-pagination',
+            dynamicBullets: true,
+          },
+        });
+      </script>
+
+      <!--第2个轮播图-->
+      <script>
+        var swiper2 = new Swiper('#swiper2', {
+          scrollbar: {
+            el: '.swiper-scrollbar',
+            hide: true,
+          },
+        });
+      </script>
+
+      <!-- 左边聚划算轮播图 -->
+      <script>
+        var swiper = new Swiper('#left1', {
+          autoplay:true,
+          effect: 'cube',
+          grabCursor: true,
+          cubeEffect: {
+            shadow: false,
+            slideShadows: true,
+            shadowOffset: 20,
+            shadowScale: 0.94,
+          },
+          autoplay: {
+            delay: 3000,//2秒切换一次
+            disableOnInteraction: false,//触碰以后停止切换
+          },
+        
+        });
+      </script>
+      <!-- 右边直播轮播图 -->
+      <script>
+        var swiper = new Swiper('#right1', {
+          autoplay:true,
+          effect: 'cube',
+          grabCursor: true,
+          cubeEffect: {
+            shadow: false,
+            slideShadows: true,
+            shadowOffset: 20,
+            shadowScale: 0.94,
+          },
+          autoplay: {
+            delay: 3000,//2秒切换一次
+            disableOnInteraction: false,//触碰以后停止切换
+          },
+        
+        });
+      </script>
+</body>
+</html>
