@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+	<meta content="telephone=no" name="format-detection" />
+    <title>聚划算页面</title>
+    <link rel="stylesheet" href="./font_gl1ytl0lay/iconfont.css">
+    <link rel="stylesheet" href="./css/juhuasuan.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.mini.css">
+    <link rel="stylesheet" href="./css/progress-bar.css">
+</head>
+<body>
+
+    <!-- 头部 -->
+    <section>
+
+        <!-- 头部标题栏 -->
+        <header>
+            <a href="./index.html" class="icon-xiangzuojiantou"></a>
+            <h2>限时抢购</h2>
+            <a href="#" class="icon-ju1"></a>
+        </header>
+
+        <!--上部限时抢-->
+        <div class="nav-time">
+            <ul class="tab-nav" style="display: block;">
+                <li class="tab-nav-item">
+                    <a href="#">
+                        <h2>新人专享</h2>
+                        <p>正在抢</p>
+                    </a>
+                </li>
+                <li class="tab-nav-item">
+                    <a href="#">
+                        <h2>12:00</h2>
+                        <p>即将开抢</p>
+                    </a>
+                </li>
+                <li class="tab-nav-item">
+                    <a href="#">
+                        <h2>16:00</h2>
+                        <p>即将开抢</p>
+                    </a>
+                </li>
+                <li class="tab-nav-item">
+                    <a href="#">
+                        <h2>20:00</h2>
+                        <p>即将开抢</p>
+                    </a>
+                </li>
+                <li class="tab-nav-item">
+                    <a href="#">
+                        <h2>00:00</h2>
+                        <p>即将开抢</p>
+                    </a>
+                </li>
+            </ul>
+            <!--对应不同时间的商品类，轮播图实现自由滚动-->
+            <div class="time-shop">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                          <img src="./img/pd-004.jpg">
+                          <h2>￥26</h2>
+                      </div>
+                      <div class="swiper-slide">
+                          <img src="./img/pd-003.jpg">
+                          <h2>￥45</h2>
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./img/pd-002.jpg">
+                        <h2>￥16</h2>
+                      </div>
+                      <div class="swiper-slide">
+                          <img src="./img/pd-001.jpg">
+                          <h2>￥76</h2>
+                      </div>
+                      <div class="swiper-slide">
+                          <img src="./img/000.png">
+                          <h2>￥9.9</h2>
+                      </div>
+                      <div class="swiper-slide">
+                          <img src="./img/111.png">
+                          <h2>￥12.9</h2>
+                      </div>
+                      <div class="swiper-slide">
+                          <img src="./img/222.png">
+                          <h2>￥18.9</h2>
+                      </div>
+                      <div class="swiper-slide">
+                          <img src="./img/333.png">
+                          <h2>￥19.9</h2>
+                      </div>
+                      <div class="swiper-slide">
+                          <img src="./img/444.png">
+                          <h2>￥28</h2>
+                      </div>
+                      <div class="swiper-slide">
+                          <img src="./img/555.png">
+                          <h2>￥9.9</h2>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination" style="display: none;"></div>
+                  </div>
+                  <!-- 第2个时间 -->
+                  <div class="swiper-container" id="swiper1" style="display:none;" >
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                          <img src="./img/pd-001.jpg">
+                          <h2>￥26</h2>
+                      </div>
+                      <div class="swiper-slide">
+                          <img src="./img/pd-002.jpg">
+                          <h2>￥45</h2>
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./img/000.png">
+                        <h2>￥16</h2>
+                      </div>
+                      <div class="swiper-slide">
+                          <img src="./img/pd-001.jpg">
+                          <h2>￥76</h2>
+                      </div>
+                      <div class="swiper-slide">
+                          <img src="./img/000.png">
+                          <h2>￥9.9</h2>
+                      </div>
+                      <div class="swiper-slide">
+                          <img src="./img/111.png">
+                          <h2>￥12.9</h2>
+                      </div>
+                      <div class="swiper-slide">
+                          <img src="./img/222.png">
+                          <h2>￥18.9</h2>
+                      </div>
+                      <div class="swiper-slide">
+                          <img src="./img/333.png">
+                          <h2>￥19.9</h2>
+                      </div>
+                      <div class="swiper-slide">
+                          <img src="./img/444.png">
+                          <h2>￥28</h2>
+                      </div>
+                      <div class="swiper-slide">
+                          <img src="./img/555.png">
+                          <h2>￥9.9</h2>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination" style="display: none;" id="pagination1"></div>
+                  </div>
+                 
+                </div>
+            </div>
+      
+        <!--进度条下面的商品-->
+        
+    </section>
+
+
+    <!--中部身体部分-->
+    <div class="center">
+    <div class="body-center">
+        <div class="img-fog">
+            <span class="tag">
+                <img src="./img/tag1.png">
+            </span>
+            <img src="./img/000.png">
+        </div>
+        <div class="img-right">
+            <h3>心心相印原木亲夫抽纸*8包装</h3>
+            <div class="progress-bar">
+                <dl class="barbox">
+                    <dd class="barline">
+                        <div w="50" style="width:0px;" class="charts"></div>
+                    </dd>
+                </dl>
+
+
+            </div>
+           <p class="jindu">已抢88%</p>
+           <div class="details">
+               <p>买3送1，天然无漂白</p>
+           </div>
+           <div class="price">
+           <p class="del">￥15.99</p>
+           <p class="now">￥9.9</p>
+           <a class="right-now">
+            <p class="go">马上抢</p>
+        </a>
+        </div>
+
+
+        </div>
+
+        </div>
+        <div class="body-center">
+            <div class="img-fog">
+                <span class="tag">
+                    <img src="./img/tag1.png">
+                </span>
+                <img src="./img/444.png">
+            </div>
+            <div class="img-right">
+                <h3>心心相印原木亲夫抽纸*8包装</h3>
+                <div class="progress-bar">
+                    <dl class="barbox">
+                        <dd class="barline">
+                            <div w="50" style="width:0px;" class="charts"></div>
+                        </dd>
+                    </dl>
+    
+    
+                </div>
+               <p class="jindu">已抢88%</p>
+               <div class="details">
+                   <p>买3送1，天然无漂白</p>
+               </div>
+               <div class="price">
+               <p class="del">￥15.99</p>
+               <p class="now">￥9.9</p>
+               <a class="right-now">
+                   <p class="go">马上抢</p>
+               </a>
+            </div>
+    
+    
+            </div>
+    
+    
+            </div>
+            <div class="body-center">
+                <div class="img-fog">
+                    <span class="tag">
+                        <img src="./img/tag1.png">
+                    </span>
+                    <img src="./img/111.png">
+                </div>
+                <div class="img-right">
+                    <h3>心心相印原木亲夫抽纸*8包装</h3>
+                    <div class="progress-bar">
+                        <dl class="barbox">
+                            <dd class="barline">
+                                <div w="50" style="width:0px;" class="charts"></div>
+                            </dd>
+                        </dl>
+        
+        
+                    </div>
+                   <p class="jindu">已抢88%</p>
+                   <div class="details">
+                       <p>买3送1，天然无漂白</p>
+                   </div>
+                   <div class="price">
+                   <p class="del">￥15.99</p>
+                   <p class="now">￥9.9</p>
+                   <a class="right-now">
+                    <p class="go">马上抢</p>
+                </a>
+                </div>
+        
+        
+                </div>
+        
+        
+            </div>
+    <!-- 品牌部分 -->
+
+        <div class="band">
+                <h2 class="band-go">
+                  品牌抢购
+                  <a href="#" class="icon-xiangyoujiantou">
+                     <p href="#" class="more">更多</p> 
+                    </a>
+                </h2>
+                <div class="band-name">
+                    <div class="band1">
+                        <img src="./img/for1.png">
+                    </div>
+                    <div class="band1">
+                        <img src="./img/for2.png">
+                    </div>
+                    <div class="band1">
+                        <img src="./img/for3.png">
+                    </div>
+                </div>
+        
+        </div>
+
+        <div class="body-center">
+            <div class="img-fog">
+                <span class="tag">
+                    <img src="./img/tag1.png">
+                </span>
+                <img src="./img/000.png">
+            </div>
+            <div class="img-right">
+                <h3>心心相印原木亲夫抽纸*8包装</h3>
+                <div class="progress-bar">
+                    <dl class="barbox">
+                        <dd class="barline">
+                            <div w="50" style="width:0px;" class="charts"></div>
+                        </dd>
+                    </dl>
+    
+    
+                </div>
+               <p class="jindu">已抢88%</p>
+               <div class="details">
+                   <p>买3送1，天然无漂白</p>
+               </div>
+               <div class="price">
+               <p class="del">￥15.99</p>
+               <p class="now">￥9.9</p>
+               <a class="right-now">
+                <p class="go">马上抢</p>
+            </a>
+            </div>
+    
+    
+            </div>
+    
+            </div>
+            <div class="body-center">
+                <div class="img-fog">
+                    <span class="tag">
+                        <img src="./img/tag1.png">
+                    </span>
+                    <img src="./img/444.png">
+                </div>
+                <div class="img-right">
+                    <h3>心心相印原木亲夫抽纸*8包装</h3>
+                    <div class="progress-bar">
+                        <dl class="barbox">
+                            <dd class="barline">
+                                <div w="50" style="width:0px;" class="charts"></div>
+                            </dd>
+                        </dl>
+        
+        
+                    </div>
+                   <p class="jindu">已抢88%</p>
+                   <div class="details">
+                       <p>买3送1，天然无漂白</p>
+                   </div>
+                   <div class="price">
+                   <p class="del">￥15.99</p>
+                   <p class="now">￥9.9</p>
+                   <a class="right-now">
+                       <p class="go">马上抢</p>
+                   </a>
+                </div>
+        
+        
+                </div>
+        
+        
+                </div>
+                <div class="body-center">
+                    <div class="img-fog">
+                        <span class="tag">
+                            <img src="./img/tag1.png">
+                        </span>
+                        <img src="./img/111.png">
+                    </div>
+                    <div class="img-right">
+                        <h3>心心相印原木亲夫抽纸*8包装</h3>
+                        <div class="progress-bar">
+                            <dl class="barbox">
+                                <dd class="barline">
+                                    <div w="50" style="width:0px;" class="charts"></div>
+                                </dd>
+                            </dl>
+            
+            
+                        </div>
+                       <p class="jindu">已抢88%</p>
+                       <div class="details">
+                           <p>买3送1，天然无漂白</p>
+                       </div>
+                       <div class="price">
+                       <p class="del">￥15.99</p>
+                       <p class="now">￥9.9</p>
+                       <a class="right-now">
+                        <p class="go">马上抢</p>
+                    </a>
+                    </div>
+            
+            
+                    </div>
+            
+            
+                </div>
+     </div>
+
+
+
+
+
+    <footer class="footer-nav">
+        <a  class="footer-nav-item">
+            <span class="icon-item">
+                <i class="icon-huo"></i>
+            </span>
+            <span class="item-text">热销</span>
+        </a>
+        <a  class="footer-nav-item">
+          <span class="icon-item">
+              <i class="icon-suan"></i>
+          </span>
+          <span class="item-text">划算</span>
+      </a>
+      <a  class="footer-nav-item">
+          <span class="icon-item">
+              <i class="icon-xiaoxizhongxin"></i>
+          </span>
+          <span class="item-text">信息</span>
+      </a>
+      <a  class="footer-nav-item">
+          <span class="icon-item">
+              <i class="icon-wodejuhuasuan"></i>
+          </span>
+          <span class="item-text">我的</span>
+      </a>
+    </footer>
+
+
+
+    <!-- 轮播图的控制 -->
+    <script src="./js/swiper-bundle.mini.js"></script>
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+              autoplay: {
+                delay: 3000,
+                stopOnLastSlide: false,
+                disableOnInteraction: true,
+                },
+          slidesPerView: 3,
+          spaceBetween: 10,
+          //centeredSlides : true,
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+        });
+    </script>
+
+    <script>
+        var swiper = new Swiper('#swiper1', {
+              autoplay: {
+                delay: 3000,
+                stopOnLastSlide: false,
+                disableOnInteraction: true,
+                },
+          slidesPerView: 3,
+          spaceBetween: 10,
+          //centeredSlides : true,
+          pagination: {
+            el: '#pagination1',
+            clickable: true,
+          },
+        });
+    </script>
+
+     
+
+
+    <script src="./js/jquery.mobile-1.4.5.min.js"></script>
+    <!-- <script src="./js/jquery.mini.js"></script> -->
+    <script src="./js/srcoll-bar.js"></script>
+    <script src="./js/jquery.mini.js"></script>
+    <script src="./js/navbar.js"></script>
+    <script src="./js/juhuasuan.js"></script>
+</body>
+</html>
