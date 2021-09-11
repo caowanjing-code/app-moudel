@@ -1,0 +1,356 @@
+html,
+body{
+    // width: 80%;
+    margin: 0;
+    padding: 0;
+}
+
+
+// 头部区域
+section{
+    width: 100%;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    margin: 0 auto;
+
+    border-bottom: 2px solid #fff;
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 0;
+        z-index: 100;
+        height: 2.75rem;
+        display: flex;
+        transition: all .5s;
+        background-color: rgb(223, 70, 95);
+        border-bottom: .0625rem solid #ccc;
+    
+        .icon-xiangzuojiantou{
+            margin-left: .5rem;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.25rem;
+            float: left;
+            line-height: 2.75rem;
+        }
+        h2{
+            color: #fff;
+            font-family: lato, Arial, sans-serif;
+            font-size: 1rem;
+            // font-weight: 500;
+             margin: 0 auto;
+            line-height: 2.75rem;
+        }
+        .icon-ju1{
+            margin-right: .5rem;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.25rem;
+            float: right;
+            line-height: 2.75rem;
+        }
+    }
+    // 上部限时抢轮播图之类
+    .nav-time{
+        margin-top: 2.75rem;;
+       
+        float: left;
+        width: 100%;
+        // height: 13rem;
+        background-color: rgb(238, 49, 80);
+        .tab-nav{
+            // display: flex;
+            display: flex;
+           padding-left: .3125rem;
+            margin-left: 0;
+            // z-index: 1;
+            margin: .5rem auto 0 auto;
+
+            .tab-nav-item{
+                list-style: none;
+                color: #fff;
+                float: left;
+                width: 20%;
+                // height: 3.4375rem;
+                padding-bottom: .3125rem;
+                font-size: .75rem;
+                a{
+                    text-decoration: none;
+                    // color: #fff;
+                    display: grid;
+                    h2{
+                        font-size: .875rem;
+                        color: #fff;
+                        margin: 0 auto;
+                    }
+                    p{
+                        font-size: .75rem;
+                        color: #fff;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+        .time-shop{
+            width: 100%;
+            float: left;
+            // height: 9rem;
+            // background-color: burlywood;
+            .swiper-container{
+                display: flex;
+                margin-top: .625rem;
+
+
+                .swiper-slide{
+                    margin-right: .625rem;
+                    img{
+                        width: 100%;
+                }
+                h2{
+                    text-align: center;
+                    margin: 0 auto;
+                    font-size: 1rem;
+                    color: #fff;
+                }
+                }
+            }
+
+
+            
+        }
+    }
+   
+}
+
+// 中部身体部分
+.center{
+    width: 100%;
+    padding-bottom: 3.125rem;
+
+
+    // 疯狂抢购系类
+    .body-center{
+        // margin-top: .5rem;
+        // height: 2rem;
+        width: 97%;
+        align-items: center;
+        display: flex;
+        border-radius: .3125rem;
+        background-color: #f0ecec;
+        margin: 1rem auto;
+        .img-fog{
+            float: left;
+            width: 30%;
+            // margin-right: .5rem;
+            padding: .5rem;
+            .tag{
+                float: left;
+                width: 3.4375rem;
+                position: absolute;
+                img{
+                    width: 100%;
+                    display: block;
+                }
+            }
+            img{
+                width: 100%;
+                margin: 0 auto;
+            }
+        }
+    
+        .img-right{
+            top: 0;
+            float: left;
+            // display: flex;
+            width: 69%;
+            height: 100%;
+            // -webkit-box-flex: 1;
+            h3{
+                float: left;
+                font-size: .875rem;
+                color: black;
+            }
+            .progress-bar{
+                height: 80%;
+                // width: 70%;
+                float: left;
+                overflow: hidden;
+                margin: 0 auto;
+            }
+            .jindu{
+                font-size: .625rem;
+                color: red;
+                float: right;
+            }
+            .details{
+                float: left;
+                margin-top: .3125rem;
+                padding: .1875rem;
+                border-radius: .3125rem;
+                width: 100%;
+                p{
+                background-color: rgb(243, 208, 214);
+                    font-size: .625rem;
+                    color: red;
+                    float: left;
+                }
+            }
+          
+                
+        .price{
+            text-align: center;
+            margin-top: .3125rem;
+            width: 100%;
+            float: left;
+            display: flex;
+            flex:2;
+    
+            .del{
+                // all: initial;
+                // width: 100%;
+                float: left;
+                text-decoration:line-through;
+                font-size: 1rem;
+                padding: .1875rem;
+            }
+            .now{
+                padding: .1875rem;
+                float: left;
+                font-size: 1rem;
+                color: rgb(226, 57, 85);
+            }
+            .right-now{
+                height: 1.25rem;
+                width: 30%;
+                text-align: center;
+                margin-left: 2.1875rem;
+                text-decoration: none;
+                color: black;
+                float: right;
+                border: .0625rem solid red;
+                border-radius: .5rem;
+                background-color: rgb(228, 224, 224);
+                .go{
+                    text-align: center;
+                    line-height: 1.25rem;
+                }
+    
+            }
+        }
+                
+            }
+           
+    }
+
+
+    // 品牌部分
+.band{
+    // height: 6.25rem;
+    width: 96%;
+    margin: .625rem auto;
+    border-radius: .5rem;
+    background-color: rgb(248, 227, 230);
+    .band-go{
+        float: left;
+        width: 100%;
+        font-family: 1.125rem;
+        color: rgb(236, 62, 91);
+        
+        .icon-xiangyoujiantou{
+            height: 1.5rem;
+            text-decoration: none;
+            float: right;
+            font-size: 1.25rem;
+            color: #fff;
+            .more{
+                float: right;
+                text-decoration: none;
+                // color:#fff;
+                color: #000;
+                font-size: .875rem;
+                line-height: 1.5rem
+                // padding: .3125rem;
+            }
+        }
+    }
+
+
+    .band-name{
+        padding-top: 3%;
+        width: 100%;
+        display: flex;
+        .band1{
+            width: 30%;
+            padding: 2%;
+           img{
+               width: 100%;
+               margin: 0 auto;
+               border-radius: .5rem;
+           }
+        }
+    }
+
+
+}
+
+}
+
+
+
+
+
+
+
+// 脚部区域
+.footer-nav{
+    border-top: .0625rem solid #ccc;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 49;
+    width: 100%;
+    background-color: rgb(223, 70, 95);
+    .footer-nav-item {
+        width: 25%;
+        float: left;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        color: #fff;
+        // float: left;
+        // flex-direction: column;
+        // -webkit-box-flex: 1;
+     
+     
+        .icon-item{
+            color: #fff;
+        }
+        i{
+            float: left;
+            font-style: normal;
+            font-size:1.625rem;
+        }
+
+   }
+}

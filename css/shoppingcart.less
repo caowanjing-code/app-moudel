@@ -1,0 +1,188 @@
+html,
+body{
+    margin: 0;
+    padding: 0;
+}
+
+// 头部导航栏
+header{
+    // position: fixed;
+    width: 100%;
+    height: 2.75rem;
+    background-color: #f9f9f9;
+    .icon-xiangzuojiantou{
+        float: left;
+        color:rgb(44, 43, 43);
+        font-size: 1.25rem;
+        text-decoration: none;
+        line-height: 2.75rem;
+        margin-left: .625rem;
+    }
+    .header-nav{
+        text-align: center;
+        margin: 0 auto;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 2.75rem;
+        color: rgb(44, 43, 43);
+        font-size: 1.125rem;
+    }
+    .icon-lingcunwei{
+        float: right;
+        color:rgb(44, 43, 43);
+        font-size: 1.25rem;
+        text-decoration: none;
+        line-height: 2.75rem;
+        margin-right: .625rem;
+    }
+}
+// 地址栏
+.address{
+   
+    display: flex;
+    padding-top: .5rem;
+    width: 100%;
+    height: 6%;
+    
+    .address-my{
+        width: 90%;
+        margin: 0 auto;
+     
+        padding-top: 2%;
+        border-bottom: 1px solid #ccc;
+
+        
+        .local{
+            text-decoration: none;
+            color: #979797;
+            max-width: 60%;
+            float: left;
+            font-size: .75rem;
+
+            img{
+                width: 7%;
+            }
+        }
+
+        .bianji{
+            color: #979797;
+            text-decoration: none;
+            float: right;
+            // width: 40%;
+            font-size: .75rem;
+           text-align: right;
+            // padding-right: 5%;
+        }
+
+    }
+}
+
+
+// 下面的商品栏
+.Commodity-bar{
+    width: 100%;
+    height: 30%;
+    background-color: #f9f9f9;
+    border-radius: .3125rem;
+    .comm-classfiy{
+        width: 90%;
+        height: 90%;
+        margin: .8rem auto;
+
+        .comm-head{
+            display: flex;
+           width: 100%;
+           .form-check{
+               float: left;
+           }
+           .store{
+               min-width: 75%;
+               display: flex;
+               a{
+                   float: left;
+                   font-size: 1rem;
+                   text-decoration: none;
+                   color: black;
+                   h3{
+
+                       float: left;
+                       font-size:14px;
+                       margin-top: 4%;
+                   }
+               }
+           }
+           .coupon{
+               
+               max-width: 20%;
+               a{
+                   float: left;
+                   color: #979797;
+                   text-decoration: none;
+                   font-size: 1rem;
+                   p{
+                       font-size: .75rem;
+                       float: left;
+                       background-color: rgb(241, 75, 102);
+                       border-radius: .1875rem;
+                       color: #fff;
+                       margin: 0;
+                       padding: 0;
+                    //    line-height: 1.5rem;
+                   }
+               }
+           }
+        }
+    }
+}
+
+
+// 脚部导航栏
+
+.footer-nav{
+    border-top: .0625rem solid #ccc;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 49;
+    width: 100%;
+    background-color: #f9f9f9;
+    .footer-nav-item {
+        width: 25%;
+        float: left;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        color: #979797;
+        text-decoration: none;
+
+     
+  
+        .icon-item{
+            color: #979797;
+        }
+        i{
+            float: left;
+            font-style: normal;
+            font-size:1.625rem;
+        }
+
+   }
+}

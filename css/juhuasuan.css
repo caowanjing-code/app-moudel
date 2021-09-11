@@ -1,0 +1,287 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+section {
+  width: 100%;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  margin: 0 auto;
+  border-bottom: 2px solid #fff;
+}
+section header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  z-index: 100;
+  height: 2.75rem;
+  display: flex;
+  transition: all 0.5s;
+  background-color: #df465f;
+  border-bottom: 0.0625rem solid #ccc;
+}
+section header .icon-xiangzuojiantou {
+  margin-left: 0.5rem;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.25rem;
+  float: left;
+  line-height: 2.75rem;
+}
+section header h2 {
+  color: #fff;
+  font-family: lato, Arial, sans-serif;
+  font-size: 1rem;
+  margin: 0 auto;
+  line-height: 2.75rem;
+}
+section header .icon-ju1 {
+  margin-right: 0.5rem;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.25rem;
+  float: right;
+  line-height: 2.75rem;
+}
+section .nav-time {
+  margin-top: 2.75rem;
+  float: left;
+  width: 100%;
+  background-color: #ee3150;
+}
+section .nav-time .tab-nav {
+  display: flex;
+  padding-left: 0.3125rem;
+  margin-left: 0;
+  margin: 0.5rem auto 0 auto;
+}
+section .nav-time .tab-nav .tab-nav-item {
+  list-style: none;
+  color: #fff;
+  float: left;
+  width: 20%;
+  padding-bottom: 0.3125rem;
+  font-size: 0.75rem;
+}
+section .nav-time .tab-nav .tab-nav-item a {
+  text-decoration: none;
+  display: grid;
+}
+section .nav-time .tab-nav .tab-nav-item a h2 {
+  font-size: 0.875rem;
+  color: #fff;
+  margin: 0 auto;
+}
+section .nav-time .tab-nav .tab-nav-item a p {
+  font-size: 0.75rem;
+  color: #fff;
+  margin: 0 auto;
+}
+section .nav-time .time-shop {
+  width: 100%;
+  float: left;
+}
+section .nav-time .time-shop .swiper-container {
+  display: flex;
+  margin-top: 0.625rem;
+}
+section .nav-time .time-shop .swiper-container .swiper-slide {
+  margin-right: 0.625rem;
+}
+section .nav-time .time-shop .swiper-container .swiper-slide img {
+  width: 100%;
+}
+section .nav-time .time-shop .swiper-container .swiper-slide h2 {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1rem;
+  color: #fff;
+}
+.center {
+  width: 100%;
+  padding-bottom: 3.125rem;
+}
+.center .body-center {
+  width: 97%;
+  align-items: center;
+  display: flex;
+  border-radius: 0.3125rem;
+  background-color: #f0ecec;
+  margin: 1rem auto;
+}
+.center .body-center .img-fog {
+  float: left;
+  width: 30%;
+  padding: 0.5rem;
+}
+.center .body-center .img-fog .tag {
+  float: left;
+  width: 3.4375rem;
+  position: absolute;
+}
+.center .body-center .img-fog .tag img {
+  width: 100%;
+  display: block;
+}
+.center .body-center .img-fog img {
+  width: 100%;
+  margin: 0 auto;
+}
+.center .body-center .img-right {
+  top: 0;
+  float: left;
+  width: 69%;
+  height: 100%;
+}
+.center .body-center .img-right h3 {
+  float: left;
+  font-size: 0.875rem;
+  color: black;
+}
+.center .body-center .img-right .progress-bar {
+  height: 80%;
+  float: left;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.center .body-center .img-right .jindu {
+  font-size: 0.625rem;
+  color: red;
+  float: right;
+}
+.center .body-center .img-right .details {
+  float: left;
+  margin-top: 0.3125rem;
+  padding: 0.1875rem;
+  border-radius: 0.3125rem;
+  width: 100%;
+}
+.center .body-center .img-right .details p {
+  background-color: #f3d0d6;
+  font-size: 0.625rem;
+  color: red;
+  float: left;
+}
+.center .body-center .img-right .price {
+  text-align: center;
+  margin-top: 0.3125rem;
+  width: 100%;
+  float: left;
+  display: flex;
+  flex: 2;
+}
+.center .body-center .img-right .price .del {
+  float: left;
+  text-decoration: line-through;
+  font-size: 1rem;
+  padding: 0.1875rem;
+}
+.center .body-center .img-right .price .now {
+  padding: 0.1875rem;
+  float: left;
+  font-size: 1rem;
+  color: #e23955;
+}
+.center .body-center .img-right .price .right-now {
+  height: 1.25rem;
+  width: 30%;
+  text-align: center;
+  margin-left: 2.1875rem;
+  text-decoration: none;
+  color: black;
+  float: right;
+  border: 0.0625rem solid red;
+  border-radius: 0.5rem;
+  background-color: #e4e0e0;
+}
+.center .body-center .img-right .price .right-now .go {
+  text-align: center;
+  line-height: 1.25rem;
+}
+.center .band {
+  width: 96%;
+  margin: 0.625rem auto;
+  border-radius: 0.5rem;
+  background-color: #f8e3e6;
+}
+.center .band .band-go {
+  float: left;
+  width: 100%;
+  font-family: 1.125rem;
+  color: #ec3e5b;
+}
+.center .band .band-go .icon-xiangyoujiantou {
+  height: 1.5rem;
+  text-decoration: none;
+  float: right;
+  font-size: 1.25rem;
+  color: #fff;
+}
+.center .band .band-go .icon-xiangyoujiantou .more {
+  float: right;
+  text-decoration: none;
+  color: #000;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+.center .band .band-name {
+  padding-top: 3%;
+  width: 100%;
+  display: flex;
+}
+.center .band .band-name .band1 {
+  width: 30%;
+  padding: 2%;
+}
+.center .band .band-name .band1 img {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+}
+.footer-nav {
+  border-top: 0.0625rem solid #ccc;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 49;
+  width: 100%;
+  background-color: #df465f;
+}
+.footer-nav .footer-nav-item {
+  width: 25%;
+  float: left;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #fff;
+}
+.footer-nav .footer-nav-item .icon-item {
+  color: #fff;
+}
+.footer-nav .footer-nav-item i {
+  float: left;
+  font-style: normal;
+  font-size: 1.625rem;
+}

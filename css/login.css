@@ -1,0 +1,128 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 6.25rem;
+}
+header {
+  width: 100%;
+  height: 2.75rem;
+  background-color: #e02222;
+}
+header .icon-xiangzuojiantou {
+  float: left;
+  color: #fff;
+  font-size: 1.25rem;
+  text-decoration: none;
+  line-height: 2.75rem;
+  margin-left: 0.625rem;
+}
+header .header-nav {
+  text-align: center;
+  margin: 0 auto;
+  line-height: 2.75rem;
+  color: #fff;
+  font-size: 1.125rem;
+}
+.center {
+  margin: 3rem auto;
+  width: 96%;
+}
+.center .input-item {
+  width: 90%;
+  margin: 1rem auto;
+}
+.center .input-item .phone {
+  float: left;
+  width: 90%;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+.center .input-item .phone .phone-area {
+  text-align: center;
+  font-size: 0.875rem;
+}
+.center .input-item .code {
+  float: left;
+  width: 90%;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+.center .input-item .code .send-code {
+  float: right;
+  border-left: 0.0625rem solid #ccc;
+}
+.center .login-button {
+  width: 90%;
+  margin: 0.625rem auto;
+}
+.center .login-button .lg-btn {
+  margin-top: 1.25rem;
+  height: 3.125rem;
+  width: 93%;
+  text-align: center;
+  border-radius: 1.4rem;
+  background-image: linear-gradient(90deg, #fab3b3, #ffbcb3 73%, #ffcaba);
+}
+.center .login-button .lg-btn h2 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.center .left-right {
+  width: 90%;
+  margin: 0.875rem auto;
+}
+.center .left-right .left {
+  float: left;
+  color: #ccc;
+  font-size: 0.875rem;
+}
+.center .left-right .right {
+  margin-right: 1.5rem;
+  float: right;
+  color: #ccc;
+  font-size: 0.875rem;
+}
+.other-log {
+  width: 90%;
+  margin: 5rem auto;
+  text-align: center;
+}
+.other-log .other-manner {
+  font-size: 0.75rem;
+  color: #a8a6a6;
+  font-weight: 100;
+}
+.other-log .device {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1.25rem;
+  display: flex;
+}
+.other-log .device .communicate {
+  width: 33%;
+  padding: 0 1.25rem;
+  display: grid;
+}
+.other-log .device .communicate img {
+  width: 100%;
+}
+.other-log .device .communicate p {
+  margin-top: 0.25rem;
+  font-size: 12px;
+  font-weight: 100;
+}
+.other-log .appoint {
+  width: 90%;
+  font-size: 0.75rem;
+  margin: 0.625rem auto;
+}
+.other-log .appoint .appoint-phone {
+  color: black;
+}
+.other-log .appoint .appoint-phone .article {
+  color: #4040f0;
+}

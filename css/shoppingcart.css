@@ -1,0 +1,159 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100%;
+  height: 2.75rem;
+  background-color: #f9f9f9;
+}
+header .icon-xiangzuojiantou {
+  float: left;
+  color: #2c2b2b;
+  font-size: 1.25rem;
+  text-decoration: none;
+  line-height: 2.75rem;
+  margin-left: 0.625rem;
+}
+header .header-nav {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 2.75rem;
+  color: #2c2b2b;
+  font-size: 1.125rem;
+}
+header .icon-lingcunwei {
+  float: right;
+  color: #2c2b2b;
+  font-size: 1.25rem;
+  text-decoration: none;
+  line-height: 2.75rem;
+  margin-right: 0.625rem;
+}
+.address {
+  display: flex;
+  padding-top: 0.5rem;
+  width: 100%;
+  height: 6%;
+}
+.address .address-my {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 2%;
+  border-bottom: 1px solid #ccc;
+}
+.address .address-my .local {
+  text-decoration: none;
+  color: #979797;
+  max-width: 60%;
+  float: left;
+  font-size: 0.75rem;
+}
+.address .address-my .local img {
+  width: 7%;
+}
+.address .address-my .bianji {
+  color: #979797;
+  text-decoration: none;
+  float: right;
+  font-size: 0.75rem;
+  text-align: right;
+}
+.Commodity-bar {
+  width: 100%;
+  height: 30%;
+  background-color: #f9f9f9;
+  border-radius: 0.3125rem;
+}
+.Commodity-bar .comm-classfiy {
+  width: 90%;
+  height: 90%;
+  margin: 0.8rem auto;
+}
+.Commodity-bar .comm-classfiy .comm-head {
+  display: flex;
+  width: 100%;
+}
+.Commodity-bar .comm-classfiy .comm-head .form-check {
+  float: left;
+}
+.Commodity-bar .comm-classfiy .comm-head .store {
+  min-width: 75%;
+  display: flex;
+}
+.Commodity-bar .comm-classfiy .comm-head .store a {
+  float: left;
+  font-size: 1rem;
+  text-decoration: none;
+  color: black;
+}
+.Commodity-bar .comm-classfiy .comm-head .store a h3 {
+  float: left;
+  font-size: 14px;
+  margin-top: 4%;
+}
+.Commodity-bar .comm-classfiy .comm-head .coupon {
+  max-width: 20%;
+}
+.Commodity-bar .comm-classfiy .comm-head .coupon a {
+  float: left;
+  color: #979797;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.Commodity-bar .comm-classfiy .comm-head .coupon a p {
+  font-size: 0.75rem;
+  float: left;
+  background-color: #f14b66;
+  border-radius: 0.1875rem;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+.footer-nav {
+  border-top: 0.0625rem solid #ccc;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 49;
+  width: 100%;
+  background-color: #f9f9f9;
+}
+.footer-nav .footer-nav-item {
+  width: 25%;
+  float: left;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #979797;
+  text-decoration: none;
+}
+.footer-nav .footer-nav-item .icon-item {
+  color: #979797;
+}
+.footer-nav .footer-nav-item i {
+  float: left;
+  font-style: normal;
+  font-size: 1.625rem;
+}
